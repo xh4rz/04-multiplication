@@ -1,1 +1,3 @@
-console.log(process.env);
+import { yarg } from './config/plugins/args.plugin';
+
+console.log(yarg.b);
